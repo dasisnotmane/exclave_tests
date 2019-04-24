@@ -1,0 +1,9 @@
+[Scenario]
+ExecStopSuccess=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/test_done.sh
+ExecStopFail=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/fail_test.sh
+Name=Comprehensive test
+Description=Test all features 
+Tests=sample_test2,sample_test3,sample_test4
+WorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/
+Timeout=180
+
