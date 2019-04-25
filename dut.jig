@@ -2,5 +2,5 @@
 Name=Sample Jig
 Description=This is a sample test Jig
 DefaultWorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/
-DefaultScenario=full-sequence
+DefaultScenario=full_sequence
 

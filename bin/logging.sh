@@ -1,4 +1,4 @@
 while read line
 do
-	echo ${line}>> loggy.txt
+	echo ${line}>> logger_logs.txt
 done

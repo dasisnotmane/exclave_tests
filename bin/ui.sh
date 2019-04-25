@@ -2,6 +2,6 @@
 
 while read line
 do
-	echo "${line}">> logs.txt
+	echo "${line}">> ui_logs.txt
 
 done

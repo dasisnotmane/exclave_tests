@@ -1,10 +1,10 @@
 [Test]
 ExecStart=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/sample_test2.sh
-ExecStopSuccess=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/pass_test.sh
+ExecStopSuccess=/mnt/c/cam_scripts/tester/boot/exclave_tests/pass_test.sh
 ExecStopFailure=fail_test.sh
-Name= sampletest2 
+Name=sampletest2 
 Description= followup sample test 2 
-#Requires=sample_test
+Requires=sample_test1
 Timeout=2
 Type=simple
 WorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/

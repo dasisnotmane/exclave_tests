@@ -1,0 +1,9 @@
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario starting","unix_time":1556208420,"unix_time_nsecs":351363500}
+{"unit":{"id":"sample_test1","kind":"Test"},"log_type":"Info","log_message":"checking high priority test","unix_time":1556208420,"unix_time_nsecs":383309900}
+{"unit":{"id":"sample_test1","kind":"Test"},"log_type":"Info","log_message":"Pass","unix_time":1556208420,"unix_time_nsecs":383340800}
+{"unit":{"id":"sample_test2","kind":"Test"},"log_type":"Info","log_message":"checking lower priority test","unix_time":1556208420,"unix_time_nsecs":411989100}
+{"unit":{"id":"sample_test2","kind":"Test"},"log_type":"Info","log_message":"Pass","unix_time":1556208420,"unix_time_nsecs":412293100}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"execstopsuccess: starting [/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/pass_test.sh]","unix_time":1556208420,"unix_time_nsecs":434505100}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"PASS","unix_time":1556208420,"unix_time_nsecs":440417200}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"execstopsuccess: finished [/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/pass_test.sh]","unix_time":1556208420,"unix_time_nsecs":441882000}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario ended","unix_time":1556208420,"unix_time_nsecs":442389600}

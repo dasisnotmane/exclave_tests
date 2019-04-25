@@ -1,2 +1,3 @@
-echo "checking lower priority test"
-exit 0
+echo "low priority test"
+echo "Something has failed"
+exit 1 
