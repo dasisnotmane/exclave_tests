@@ -1,7 +1,7 @@
 [Logger]
-Name=File Logger
-Description=Write log messages out to a file
-ExecStart=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/logging.sh
-Jigs=dut
-WorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/
-Format=json
+Name = File Logger
+Description = Write log messages out to a file
+ExecStart = /home/pi/tester/boot/stuff/test_folder/exclave_tests/bin/logging.sh
+Jigs = dut
+Format = json
+

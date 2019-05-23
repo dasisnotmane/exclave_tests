@@ -40,3 +40,135 @@ LOG info	full_sequence	scenario	1556208420	440417200	PASS
 LOG info	full_sequence	scenario	1556208420	441882000	execstopsuccess: finished [/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/pass_test.sh]
 FINISH full_sequence 200 all tests passed
 LOG info	full_sequence	scenario	1556208420	442389600	scenario ended
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+DESCRIBE test name sample_test3 sampletest3
+DESCRIBE test description sample_test3 sample test 3
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+TESTS full_sequence sample_test1 sample_test2
+JIG dut.jig
+HELLO Jig/20 1.0
+JIG dut.jig
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+TESTS full_sequence sample_test1 sample_test2
+START full_sequence
+LOG info	full_sequence	scenario	1556860316	239132492	scenario starting
+RUNNING sample_test1
+LOG info	sample_test1	test	1556860316	251065594	checking high priority test
+PASS sample_test1 Pass
+LOG info	sample_test1	test	1556860316	252201842	Pass
+RUNNING sample_test2
+LOG info	sample_test2	test	1556860316	265231921	checking lower priority test
+LOG info	sample_test2	test	1556860316	265276296	Pass
+PASS sample_test2 Pass
+FINISH full_sequence 200 all tests passed
+LOG info	full_sequence	scenario	1556860316	270456963	scenario ended
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+DESCRIBE test name sample_test3 sampletest3
+DESCRIBE test description sample_test3 sample test 3
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+TESTS full_sequence sample_test1 sample_test2
+JIG dut.jig
+HELLO Jig/20 1.0
+JIG dut.jig
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+TESTS full_sequence sample_test1 sample_test2
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+DESCRIBE test name sample_test3 sampletest3
+DESCRIBE test description sample_test3 sample test 3
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+TESTS full_sequence sample_test1 sample_test2
+JIG dut.jig
+HELLO Jig/20 1.0
+JIG dut.jig
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+TESTS full_sequence sample_test1 sample_test2
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+DESCRIBE test name sample_test3 sampletest3
+DESCRIBE test description sample_test3 sample test 3
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+TESTS full_sequence sample_test1 sample_test2
+JIG dut.jig
+HELLO Jig/20 1.0
+JIG dut.jig
+DESCRIBE jig name dut Sample Jig
+DESCRIBE jig description dut This is a sample test Jig
+SCENARIOS full_sequence
+DESCRIBE scenario name full_sequence Comprehensive test
+DESCRIBE scenario description full_sequence Test all features
+SCENARIO full_sequence
+DESCRIBE test name sample_test2 sampletest2
+DESCRIBE test description sample_test2 followup sample test 2
+DESCRIBE test name sample_test1 sampletest1
+DESCRIBE test description sample_test1 high priority sample test 1
+TESTS full_sequence sample_test1 sample_test2
+START full_sequence
+LOG info	full_sequence	scenario	1556860651	510953153	scenario starting
+RUNNING sample_test1
+LOG info	sample_test1	test	1556860651	523700010	checking high priority test
+LOG info	sample_test1	test	1556860651	523747614	Pass
+PASS sample_test1 Pass
+RUNNING sample_test2
+LOG info	sample_test2	test	1556860651	536894574	checking lower priority test
+LOG info	sample_test2	test	1556860651	536945616	Pass
+PASS sample_test2 Pass
+FINISH full_sequence 200 all tests passed
+LOG info	full_sequence	scenario	1556860651	540343580	scenario ended

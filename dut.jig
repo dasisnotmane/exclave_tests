@@ -1,6 +1,6 @@
 [Jig]
-Name=Sample Jig
-Description=This is a sample test Jig
-DefaultWorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/
-DefaultScenario=full_sequence
+Name = Sample Jig
+Description = This is a sample test Jig
+DefaultWorkingDirectory = /home/pi/tester/boot/stuff/test_folder/exclave_tests/bin/
+DefaultScenario = full_sequence
 

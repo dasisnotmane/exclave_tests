@@ -1,10 +1,8 @@
 [Test]
-ExecStart=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/sample_test1.sh
-#ExecStopSuccess=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/test_done.sh
-ExecStopSuccess=echo "HI"
-Name=sampletest1 
-Description= high priority sample test 1 
-#Requires=
-Timeout=180
-Type=simple
-WorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/
+ExecStart = /home/pi/tester/boot/stuff/test_folder/exclave_tests/bin/sample_test1.sh
+ExecStopSuccess = echo "HI"
+Name = sampletest1
+Description = high priority sample test 1
+Timeout = 180
+Type = simple
+

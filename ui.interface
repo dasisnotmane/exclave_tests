@@ -1,6 +1,6 @@
 [Interface]
-Name=Front panel LEDs
-Description=Shows test status on the LEDs
-Format=text
-WorkingDirectory=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/
-ExecStart=/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/ui.sh
+Name = Front panel LEDs
+Description = Shows test status on the LEDs
+Format = text
+ExecStart = /home/pi/tester/boot/stuff/test_folder/exclave_tests/bin/ui.sh
+

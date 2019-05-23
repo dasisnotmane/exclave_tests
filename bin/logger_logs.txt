@@ -7,3 +7,15 @@
 {"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"PASS","unix_time":1556208420,"unix_time_nsecs":440417200}
 {"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"execstopsuccess: finished [/mnt/c/cam_scripts/tester/boot/exclave_tests/bin/pass_test.sh]","unix_time":1556208420,"unix_time_nsecs":441882000}
 {"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario ended","unix_time":1556208420,"unix_time_nsecs":442389600}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario starting","unix_time":1556860316,"unix_time_nsecs":239132492}
+{"unit":{"id":"sample_test1","kind":"Test"},"log_type":"Info","log_message":"checking high priority test","unix_time":1556860316,"unix_time_nsecs":251065594}
+{"unit":{"id":"sample_test1","kind":"Test"},"log_type":"Info","log_message":"Pass","unix_time":1556860316,"unix_time_nsecs":252201842}
+{"unit":{"id":"sample_test2","kind":"Test"},"log_type":"Info","log_message":"checking lower priority test","unix_time":1556860316,"unix_time_nsecs":265231921}
+{"unit":{"id":"sample_test2","kind":"Test"},"log_type":"Info","log_message":"Pass","unix_time":1556860316,"unix_time_nsecs":265276296}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario ended","unix_time":1556860316,"unix_time_nsecs":270456963}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario starting","unix_time":1556860651,"unix_time_nsecs":510953153}
+{"unit":{"id":"sample_test1","kind":"Test"},"log_type":"Info","log_message":"checking high priority test","unix_time":1556860651,"unix_time_nsecs":523700010}
+{"unit":{"id":"sample_test1","kind":"Test"},"log_type":"Info","log_message":"Pass","unix_time":1556860651,"unix_time_nsecs":523747614}
+{"unit":{"id":"sample_test2","kind":"Test"},"log_type":"Info","log_message":"checking lower priority test","unix_time":1556860651,"unix_time_nsecs":536894574}
+{"unit":{"id":"sample_test2","kind":"Test"},"log_type":"Info","log_message":"Pass","unix_time":1556860651,"unix_time_nsecs":536945616}
+{"unit":{"id":"full_sequence","kind":"Scenario"},"log_type":"Info","log_message":"scenario ended","unix_time":1556860651,"unix_time_nsecs":540343580}
